@@ -16,7 +16,7 @@
     "build:autoprefixer": "autoprefixer-cli -o prod-assets/style.prefixed.css prod-assets/style.css",
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o prod-assets dev-assets",
     "watch": "npm-run-all -p build watch:*",
-    "watch:sassprefixer": "onchange dev-assets/*.scss -- npm-run-all build:sass build:autoprefixer",
+    "watch:sassprefixer": "onchange dev-assets/**/*.scss -- npm-run-all build:sass build:autoprefixer",
     "watch:browsersync": "browser-sync start --server --files prod-assets/*.css *.html --watch"
   },
   "repository": {
