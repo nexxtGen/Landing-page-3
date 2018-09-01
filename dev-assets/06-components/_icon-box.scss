@@ -1,0 +1,20 @@
+.c-icon-box {
+    text-align: center;
+
+    &__image {
+        display: flex;
+        justify-content: center; // wyś w poziomie
+        /*  Icon jpg height  */
+        height: 74px;
+        margin-bottom: $grid-base * 2.5;
+    }
+
+    &__icon {
+        align-self: center; // wyś w pionie
+    }
+
+    &__text {
+        font-size: $font-size-5;
+        margin-top: $grid-base * 1.5;
+    }
+}

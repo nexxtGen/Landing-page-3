@@ -1,0 +1,10 @@
+.t-services {
+    margin-top: $grid-base * 10;
+    margin-bottom: $grid-base * 10;
+    &__header {
+        text-align: center;
+        p {
+            font-size: $font-size-3;
+        }        
+    }
+}

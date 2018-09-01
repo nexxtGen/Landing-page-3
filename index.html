@@ -1,25 +1,150 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Golden</title>
     <link rel="stylesheet" href="prod-assets/style.css">
 </head>
-<body>
-    <div class="o-container">
-        <div class="o-row">
-            <div class="o-col o-col--md12 o-col--lg12" style=" margin-bottom: 5px; background-color: rgb(33, 34, 34); height: 400px">
-                <nav class="c-nav">
-                    <a href="#" class="c-nav__item c-nav__item--underline-hover">item 1</a>
-                    <a href="#" class="c-nav__item c-nav__item--underline-hover">item o firmie</a>
-                    <a href="#" class="c-nav__item c-nav__item--underline-hover">Usługi</a>
-                    <a href="#" class="c-nav__item c-nav__item--underline-hover">Usługi</a>
-                    <a href="#" class="c-nav__item c-nav__item--underline-hover">Usługi</a>
-                </nav>                
-            </div>                      
-        </div>        
-    </div>
+<body> 
+    <header class="t-site-header u-bg-dark">
+        <div class="o-container">
+            <div class="t-site-header__top">
+                <div class="o-row o-row--center-y">
+                    <div class="o-col o-col--md3">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                    <div class="o-col o-col--md9 t-site-header__menu">
+                        <nav class="c-nav">
+                            <a href="#" class="c-nav__item c-nav__item--underline-hover">Home</a>
+                            <a href="#" class="c-nav__item c-nav__item--underline-hover">Services</a>
+                            <a href="#" class="c-nav__item c-nav__item--underline-hover">Portfolio</a>
+                            <a href="#" class="c-nav__item c-nav__item--underline-hover">About</a>
+                            <a href="#" class="c-nav__item c-nav__item--underline-hover">Contact</a>
+                        </nav>
+                    </div>
+                </div>                
+            </div> 
+            <div class="t-site-header__hero u-text-center">
+                <h2 class="c-heading c-heading--white t-site-header__intro-text u-mb-3">Welcome To Our Studio!</h2>
+                <h1 class="c-heading c-heading--level0 c-heading--white c-heading--upper u-mb-3">It's nice to meet You</h1>
+                <a href="#" class="c-btn c-btn--primary">Tell me more</a>
+            </div>
+        </div>
+    </header>  
+    <section class="t-services">
+        <div class="o-container">
+            <div class="o-row o-row--center-y">
+                <div class="o-col u-mb-6">
+                    <div class="t-services__header">                    
+                        <h1 class="c-heading c-heading--level1 c-heading--upper">Services</h1>
+                        <p class="u-text-italic">Proin iaculis purus consequat sem cure</p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="o-row o-row--center-y">
+                <div class="o-col o-col--md4">
+                    <div class="c-icon-box">
+                        <div class="c-icon-box__image">
+                            <img class="c-icon-box__icon" src="images/icons/icon-1.jpg" alt="">
+                        </div>
+                        <h4 class="c-heading--level2">E-Commerce</h4>
+                        <p class="c-icon-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus, libero nobis aliquam minus magnam nihil illo totam accusamus costamtos ala.</p>                        
+                    </div>
+                </div>
+                <div class="o-col o-col--md4">
+                    <div class="c-icon-box">
+                        <div class="c-icon-box__image">
+                            <img class="c-icon-box__icon" src="images/icons/icon-2.jpg" alt="">
+                        </div>
+                        <h4 class="c-heading--level2">Responsive Web</h4>
+                        <p class="c-icon-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus, libero nobis aliquam minus magnam nihil illo totam accusamus costamtos ala.</p>                        
+                    </div>
+                </div>
+                <div class="o-col o-col--md4">
+                    <div class="c-icon-box">
+                        <div class="c-icon-box__image">
+                            <img class="c-icon-box__icon" src="images/icons/icon-3.jpg" alt="">
+                        </div>
+                        <h4 class="c-heading--level2">Web Security</h4>
+                        <p class="c-icon-box__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus, libero nobis aliquam minus magnam nihil illo totam accusamus costamtos ala.</p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="t-portfolio">
+        <div class="o-container">
+            <div class="o-row o-row--center-y">
+                <div class="o-col u-mb-6">
+                    <div class="t-services__header">                    
+                        <h1 class="c-heading c-heading--level1 c-heading--upper">Our Portfolio</h1>
+                        <p class="u-text-italic">Proin iaculis purus consequat sem cure</p>
+                    </div>                    
+                </div>
+            </div>  
+            <div class="o-row">
+                <div class="o-col o-col--md4">
+                    <div class="c-portfolio-box">
+                        <div class="c-portfolio-box__image u-mb-2">
+                            <img class="c-portfolio-box__icon" src="images/portfolio/portfolio-1.jpg" alt="">
+                        </div>
+                        <h4 class="c-heading--level2">Ebony & Ivory</h4>
+                        <p class="c-portfolio-box__text">Branding</p>                        
+                    </div>
+                </div>
+                <div class="o-col o-col--md4">
+                    <div class="c-portfolio-box">
+                        <div class="c-portfolio-box__image u-mb-2">
+                            <img class="c-portfolio-box__icon" src="images/portfolio/portfolio-2.jpg" alt="">
+                        </div>
+                        <h4 class="c-heading--level2">Branding</h4>
+                        <p class="c-portfolio-box__text">Print Design</p>                        
+                    </div>
+                </div>
+                <div class="o-col o-col--md4">
+                    <div class="c-portfolio-box">
+                        <div class="c-portfolio-box__image u-mb-2">
+                            <img class="c-portfolio-box__icon" src="images/portfolio/portfolio-3.jpg" alt="">
+                        </div>
+                        <h4 class="c-heading--level2">Clever Poster</h4>
+                        <p class="c-portfolio-box__text">Print Design</p>                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="o-row u-mt-3">
+                <div class="o-col o-col--md4">
+                    <div class="c-portfolio-box">
+                        <div class="c-portfolio-box__image u-mb-2">
+                            <img class="c-portfolio-box__icon" src="images/portfolio/portfolio-1.jpg" alt="">
+                        </div>
+                        <h4 class="c-heading--level2">Ebony & Ivory</h4>
+                        <p class="c-portfolio-box__text">Branding</p>                        
+                    </div>
+                </div>
+                <div class="o-col o-col--md4">
+                    <div class="c-portfolio-box">
+                        <div class="c-portfolio-box__image u-mb-2">
+                            <img class="c-portfolio-box__icon" src="images/portfolio/portfolio-2.jpg" alt="">
+                        </div>
+                        <h4 class="c-heading--level2">Branding</h4>
+                        <p class="c-portfolio-box__text">Print Design</p>                        
+                    </div>
+                </div>
+                <div class="o-col o-col--md4">
+                    <div class="c-portfolio-box">
+                        <div class="c-portfolio-box__image u-mb-2">
+                            <img class="c-portfolio-box__icon" src="images/portfolio/portfolio-3.jpg" alt="">
+                        </div>
+                        <h4 class="c-heading--level2">Clever Poster</h4>
+                        <p class="c-portfolio-box__text">Print Design</p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

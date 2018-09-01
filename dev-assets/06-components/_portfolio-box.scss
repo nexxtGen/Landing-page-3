@@ -1,0 +1,37 @@
+.c-portfolio-box {
+    text-align: center;  
+
+    &__image {
+        max-width: 100%;
+	    width: 100%;
+        /*
+        display: flex;
+        justify-content: center; // wyś w poziomie
+        //  Icon jpg height  
+        max-height: 300px;
+        width: 100%;
+        margin-bottom: $grid-base * 2.5;    
+        */  
+        object-fit: cover;           
+    }
+
+    &__icon {
+       //align-self: center; // wyś w pionie
+        height: 370px;
+        width: 100%; 
+        display: block;
+        object-fit: cover; 
+        
+        @include medium-up {
+            height: 200px;
+        }
+        @include large-up {
+            height: 380px;
+        }
+    }
+
+    &__text {
+        font-size: $font-size-5;
+        //margin-top: $grid-base * 1.5;
+    }
+}
