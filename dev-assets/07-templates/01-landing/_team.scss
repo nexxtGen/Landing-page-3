@@ -1,0 +1,45 @@
+.t-team {
+    text-align: center;
+    margin-top: $grid-base * 13;
+    @include large-up {
+        margin-top: $grid-base * 24;
+    }
+    &__box {
+        margin-bottom: $grid-base * 6;
+        @include medium-up {
+            margin-bottom: $grid-base * 3;
+        }
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center; // wyś w poziomie
+        /*  Icon jpg height  */        
+        margin-bottom: $grid-base * 2.5;
+    }
+
+    &__icon {
+        //align-self: center; // wyś w pionie
+        border-radius: 50%;
+        max-height: 300px;
+        width: 300px;
+        transition: $thetransition;
+        object-fit: cover; 
+        &:hover {
+            transform: scale(1.1);
+            transition: .4s;
+            cursor: pointer;
+            transition: $thetransition;
+        }
+    }
+
+    &__text {
+        font-size: $font-size-5;        
+    }
+    &__footer {
+        margin-top: $grid-base * 3;
+        @include medium-up {
+            padding: 0 120px;  
+        }          
+    }
+}

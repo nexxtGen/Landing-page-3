@@ -1,0 +1,13 @@
+.t-brands {
+    margin-top: $grid-base * 10;
+    margin-bottom: $grid-base * 8;  
+    @include medium-up {
+        margin-top: $grid-base * 15;
+        margin-bottom: $grid-base * 1;  
+    }  
+    &__box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: $grid-base *3.5;
+    }
+}

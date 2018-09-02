@@ -1,9 +1,11 @@
 .c-portfolio-box {
     text-align: center;  
+    margin-bottom: $grid-base * 4;
 
     &__image {
         max-width: 100%;
-	    width: 100%;
+        width: 100%;
+        
         /*
         display: flex;
         justify-content: center; // wyś w poziomie
@@ -21,12 +23,18 @@
         width: 100%; 
         display: block;
         object-fit: cover; 
+        transition: .4s;
         
         @include medium-up {
             height: 200px;
         }
         @include large-up {
             height: 380px;
+        }
+        &:hover {            
+	        transform: scale(1.1);
+            transition: .4s;
+            cursor: pointer;
         }
     }
 

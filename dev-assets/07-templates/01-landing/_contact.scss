@@ -1,0 +1,43 @@
+.t-contact {
+    background: url('../../images/contact.jpg') 0 0 no-repeat;   
+    background-size: cover;
+    height: 676px; 
+    
+    p {
+        font-size: $font-size-4;
+    }
+
+    &__header {
+        text-align: center;
+        margin-top: $grid-base * 5;
+        @include large-up {
+            margin-top: $grid-base * 10;
+        }
+    }
+    &__form-box {
+        margin-top: $grid-base * 5;
+    }
+    &__form-group {
+        display: flex;
+        justify-content: center;   
+    }
+    &__form {           
+        font-size: $font-size-5;
+        width: 80%;
+        padding: $grid-base;
+        margin-top: $grid-base;
+        margin-bottom: $grid-base;
+        border: 1px solid black;
+        border-radius: $border-radius * 2;
+        @include large-up {
+            font-size: 15px;
+            width: 100%;
+            padding: $grid-base * 1.65;
+            margin-top: $grid-base;
+            margin-bottom: $grid-base * 1.26;
+            border: 1px solid black;
+            border-radius: $border-radius * 2;
+        }
+    }
+
+}

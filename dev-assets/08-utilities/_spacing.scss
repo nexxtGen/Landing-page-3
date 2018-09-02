@@ -1,6 +1,14 @@
+.u-flex-c {
+    display: flex;
+    justify-content: center;
+}
+
+
 .object-fit_cover { 
     object-fit: cover; 
 }
+
+.col-offset-4 {margin-left: 33.33%;}
 
 // Margin Bottom
 .u-mb-1 {

@@ -1,0 +1,10 @@
+.t-footer {
+    margin-top: $grid-base;
+    margin-bottom: $grid-base;
+    &__copyright {
+        margin-top: $grid-base * 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

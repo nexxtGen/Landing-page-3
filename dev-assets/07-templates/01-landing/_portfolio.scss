@@ -1,0 +1,6 @@
+.t-portfolio {
+    margin-top: $grid-base * 12;    
+    @include medium-up {
+        margin-top: $grid-base *20;
+    }    
+}

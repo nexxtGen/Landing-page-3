@@ -1,0 +1,68 @@
+.t-about {
+    margin-top: $grid-base * 8;    
+
+    @include medium-up {
+        margin-top: $grid-base * 18;        
+    }    
+
+    &__row {    
+        margin-bottom: $grid-base *11;  
+    }
+
+    &__header {
+        text-align: center;
+        p {
+            font-size: $font-size-4;
+            @include medium-up {
+                font-size: $font-size-3;
+            }
+        }
+    }
+
+    &__content {    
+        margin-top: $grid-base * 2;    
+        text-align: center; 
+        @include medium-up {
+            text-align: right;    
+        }         
+    }
+    &__content--rev {
+        margin-top: $grid-base * 2;
+        text-align: center;
+        @include medium-up {
+            text-align: left;    
+        }
+              
+    }
+
+    &__image {  
+        object-fit: cover; 
+        margin: 0;  
+        display: flex;
+        justify-content: center;
+        &--offset {
+            @include medium-up {
+                margin-left: 33.33%;
+            }
+            
+        }
+    }    
+
+    &__item {
+       //align-self: center; // wyś w pionie   
+        border: 8px solid rgba($color: #bebebe, $alpha: .35);     
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;         
+        object-fit: cover; 
+        transition: .4s;             
+        &:hover {            
+	        transform: scale(1.1);
+            transition: .4s;
+            cursor: pointer;
+        }
+    }
+    &__text {
+        font-size: $font-size-5;        
+    }
+}

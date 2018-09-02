@@ -6,7 +6,7 @@
     font-size-adjust: $font-size-5;
     font-weight: 700;
     line-height: $line-height-base;
-    padding: .75rem 0;
+    padding: 1rem 0;
     text-align: center;
     text-transform: uppercase;
     width: $grid-base * 22;
@@ -20,7 +20,7 @@
         background-color: $primary-site-color;
         color: $white;
         &:hover {
-            background-color: darken($primary-site-color, 15%);
+            background-color: darken($primary-site-color, 20%);
             color: $white;
         }
     }
