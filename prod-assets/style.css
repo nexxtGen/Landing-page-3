@@ -173,7 +173,7 @@ img { max-width: 100%; }
 
 .b-gh:hover { background-color: #1a66ff; }
 
-.t-site-header { background: url("../../images/hero.jpg") 0 0 no-repeat; background-size: cover; height: 90vh; }
+.t-site-header { background: url("../images/hero.jpg") 0 0 no-repeat; background-size: cover; height: 90vh; }
 
 .t-site-header__top { padding-bottom: 25px; padding-top: 45px; }
 
@@ -255,7 +255,7 @@ img { max-width: 100%; }
 
 .t-brands__box { display: flex; justify-content: center; margin-bottom: 35px; }
 
-.t-contact { background: url("../../images/contact.jpg") 0 0 no-repeat; background-size: cover; height: 676px; }
+.t-contact { background: url("../images/contact.jpg") 0 0 no-repeat; background-size: cover; height: 676px; }
 
 .t-contact p { font-size: 1rem; }
 
